@@ -1,6 +1,6 @@
 # Changelog
 
-Newest first. Dates are the export dates of the fabrication sets in `hardware/production/`.
+Newest first. Dates are fabrication export dates.
 
 - **Rev1** (2026-06-05): validated build. Fabrication sets `Rev1-30x30` (30x30 only) and `Rev1-30x3020x20` (combined with OpenESC_20X20).
 - **V0.4** (2026-05-29): combined export `V0.4-20x20-30x30`.

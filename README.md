@@ -28,14 +28,12 @@ OpenESC-30x30 is **certified open source hardware** by the [Open Source Hardware
 | Parameter | Value |
 |---|---|
 | Channels | 4 independent BLDC channels |
-| MCU | AT32F421G8U7 (Cortex-M4, QFN-28), one per channel |
-| Gate driver | NSG2065Q (QFN-24), one per channel |
-| Power stage | 24x SP40N01GHNK N-channel MOSFETs, 6 per channel |
-| Current sense | Board-level high-side, INA186A3 + 0.1 mOhm shunt, 10 mV/A |
-| Input | 3S-6S LiPo, SMBJ24A TVS clamp |
+| Input | 3S-6S LiPo |
 | Signal protocol | DShot, one line per channel, extended DShot telemetry |
 | Firmware | AM32, per-channel AT32F421 target |
 | PCB | 6-layer, 1.69 mm, 30.5 x 30.5 mm mounting pattern |
+
+Part-level detail (MCU, gate driver, power stage, current sense, protection) is in [hardware/docs/DESIGN.md](hardware/docs/DESIGN.md).
 
 ## Repository layout
 
@@ -55,7 +53,7 @@ OpenESC-30x30 is **certified open source hardware** by the [Open Source Hardware
 - Board layout: `hardware/4in1.kicad_pcb`, 6 copper layers
 - Panel for production: `hardware/4in1-panel.kicad_pro` / `hardware/4in1-panel.kicad_pcb`
 
-Libraries resolve project-locally: `hardware/components.kicad_sym` and `hardware/4in1ESC-30x30.pretty/` in the repo, plus the shared `Incutec` library from the `libs/KiCad-Library` submodule. Without the submodule, shared symbols, footprints, and 3D models will not resolve.
+Symbols and footprints are embedded in the design files, so the schematics and board open without any external library. The project-local libraries are `hardware/components.kicad_sym` and `hardware/4in1ESC-30x30.pretty/`; the project lib tables also reference the shared `Incutec` library from the `libs/KiCad-Library` submodule, used for new parts. Some legacy references (`ESCLibrary`, `PCM_*`, `4in1ESC:`) and standard KiCad library parts resolve only through their embedded copies.
 
 ## Build and export
 
@@ -73,7 +71,7 @@ kicad-cli pcb export gerbers -o out/ hardware/4in1.kicad_pcb
 
 ## Manufacturing
 
-Fabricated and assembled at JLCPCB: 6-layer, 1.69 mm board, LCSC parts. Per-revision BOM, CPL, and gerber sets live in `hardware/production/` (`V0.1` through `V0.4`, `Rev1-30x30`, and the combined `Rev1-30x3020x20` set shared with [OpenESC_20X20](https://github.com/incutec-hw/OpenESC_20X20)). The directory is gitignored; regenerate it from the panel project with the Fabrication Toolkit.
+Fabricated and assembled at JLCPCB: 6-layer, 1.69 mm board, LCSC parts. Per-revision BOM, CPL, and gerber sets are generated into `hardware/production/` (gitignored) from the panel project with the Fabrication Toolkit, using the tracked `hardware/fabrication-toolkit-options.json`. Revision history: [CHANGELOG.md](CHANGELOG.md).
 
 ## Contributing
 

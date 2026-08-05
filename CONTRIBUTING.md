@@ -6,7 +6,7 @@
 git clone --recursive https://github.com/incutec-hw/OpenESC-30x30.git
 ```
 
-The `--recursive` flag is required: symbols, footprints, and 3D models resolve project-locally through the `libs/KiCad-Library` submodule. Use KiCad 10.
+The `--recursive` flag pulls the `libs/KiCad-Library` submodule, which the project lib tables reference for shared parts. Use KiCad 10.
 
 ## Workflow
 
@@ -26,7 +26,7 @@ Docs state current fact only: no TODOs, no plans, no aspirational content.
 
 ## Licensing
 
-Contributions are licensed under CERN-OHL-S-2.0, the same license as the project. Formal contribution terms are to be published.
+Contributions are licensed under CERN-OHL-S-2.0, the same license as the project.
 
 ## Questions
 

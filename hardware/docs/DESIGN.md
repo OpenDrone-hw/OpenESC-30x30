@@ -1,6 +1,6 @@
 # OpenESC-30x30 Design Notes
 
-Detailed design description of the OpenESC-30x30. Values are extracted from the KiCad design files (`hardware/4in1.kicad_sch`, `hardware/ESC.kicad_sch`, `hardware/4in1.kicad_pcb`) and the production BOM (`hardware/production/Rev1-30x30_bom.csv`).
+Detailed design description of the OpenESC-30x30. Values are extracted from the KiCad design files: `hardware/4in1.kicad_sch`, `hardware/ESC.kicad_sch`, `hardware/4in1.kicad_pcb`.
 
 ## Architecture
 
@@ -60,8 +60,8 @@ Connector ground returns on the shield/mounting pads P1/P2 (both GND). The same 
 | `hardware/4in1.kicad_pro` / `.kicad_pcb` / `.kicad_sch` | Main design (30x30) |
 | `hardware/4in1-panel.kicad_pro` / `.kicad_pcb` | Panelized version for production fabrication |
 
-This repo is the 30x30 member of the OpenESC family. A smaller sibling, [OpenESC_20X20](https://github.com/incutec-hw/OpenESC_20X20) (20x20 mm), shares this design and mirrors this repo; the two differ only in board/mounting size and a few power-stage parts. Production exports in `hardware/production/` are versioned `V0.1` through `V0.4` and `Rev1`. `Rev1-30x30` is the 30x30-only fabrication set; `Rev1-30x3020x20` is a combined shared-fab set produced alongside the 20x20.
+This repo is the 30x30 member of the OpenESC family. A smaller sibling, [OpenESC_20X20](https://github.com/incutec-hw/OpenESC_20X20) (20x20 mm), shares this design and mirrors this repo; the two differ only in board/mounting size and a few power-stage parts. Fabrication sets are generated per revision into `hardware/production/` (gitignored) with the Fabrication Toolkit; the revision history is in [CHANGELOG.md](../../CHANGELOG.md).
 
 ## Firmware
 
-[AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware) is incutec's default ESC firmware. Boards ship with the AM32 bootloader pre-loaded; firmware is flashed and configured in-browser at [am32.ca](https://am32.ca). Each channel's AT32F421G8U7 is an independent AM32 target. The AT32F421 + NSG2065Q per-channel topology and the DShot signal nets are the standard AM32 hardware target for this board class. Works with Betaflight and other DShot-capable flight controllers.
+[AM32](https://github.com/am32-firmware/AM32) is incutec's default ESC firmware. Boards ship with the AM32 bootloader pre-loaded; firmware is flashed and configured in-browser at [am32.ca](https://am32.ca). Each channel's AT32F421G8U7 is an independent AM32 target. The AT32F421 + NSG2065Q per-channel topology and the DShot signal nets are the standard AM32 hardware target for this board class. Works with Betaflight and other DShot-capable flight controllers.
