@@ -9,7 +9,7 @@ Open-source 4-in-1 BLDC ESC with a 30.5 × 30.5 mm mounting pattern, built aroun
 
 Part of the incutec OpenDrone line (`incutec-hw/OpenESC-30x30`).
 
-> A smaller **[OpenESC_20X20](https://github.com/incutec-hw/OpenESC_20X20)** (20×20 mm) shares this design and mirrors this repo. The two differ only in board/mounting size and a few power-stage parts.
+> A smaller **[OpenESC-20x20](https://github.com/incutec-hw/OpenESC-20x20)** (20×20 mm) shares this design and mirrors this repo. The two differ only in board/mounting size and a few power-stage parts.
 
 ## Architecture
 
@@ -39,7 +39,7 @@ Four fully independent ESC channels share a common power input and telemetry con
 | PCB | 6-layer, 1.69 mm |
 | Mounting pattern | 30.5 × 30.5 mm, 4× Ø4.0 mm holes (M3) |
 
-Current/voltage ratings are not printed on the design files. The input clamp is set by the SMBJ24A TVS (24 V standoff → 3S–6S); the MOSFET (SP40N01GHNK) and current-sense full-scale (~330 A) set the practical envelope. Characterize before quoting a hard rating.
+Current and voltage ratings have not been characterized. The input clamp is set by the SMBJ24A TVS (24 V standoff → 3S–6S); the MOSFET (SP40N01GHNK) and current-sense full-scale (~330 A) set the practical envelope.
 
 ## Connector
 
@@ -65,7 +65,7 @@ Connector ground returns on the shield/mounting pads P1/P2 (both GND). The same 
 | `hardware/4in1.kicad_pro` / `.kicad_pcb` / `.kicad_sch` | Main design (30×30). |
 | `hardware/4in1-panel.kicad_pro` / `.kicad_pcb` | Panelized version for production fabrication. |
 
-This repo is the 30×30 member of the OpenESC family; the 20×20 sibling lives in [`OpenESC_20X20`](https://github.com/incutec-hw/OpenESC_20X20). Production exports in `hardware/production/` are versioned `V0.1`–`V0.4` and `Rev1`. `Rev1-30x30` is the 30×30-only fabrication set; `Rev1-30x3020x20` is a combined shared-fab set produced alongside the mini.
+This repo is the 30×30 member of the OpenESC family; the 20×20 sibling lives in [`OpenESC-20x20`](https://github.com/incutec-hw/OpenESC-20x20). Production exports in `hardware/production/` are versioned `V0.1`–`V0.4` and `Rev1`. `Rev1-30x30` is the 30×30-only fabrication set; `Rev1-30x3020x20` is a combined shared-fab set produced alongside the mini.
 
 ## Firmware
 

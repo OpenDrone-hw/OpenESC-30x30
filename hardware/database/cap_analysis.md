@@ -12,7 +12,7 @@ Samsung published data from their product tool (measured at 1kHz, 25°C):
 - **X5R 10µF 50V 1206**: -87% → ~1.3µF effective
 - **X7R 10µF 50V 1206**: -78% → ~2.2µF effective
 
-Murata X7T performs similarly per Stan's assessment — expect ~2–3µF effective at 25V.
+Murata X7T performs similarly: expect ~2–3µF effective at 25V.
 Bottom line: **all 10µF 50V 1206 MLCCs give only ~2–3µF at operating voltage.**
 
 ## Candidate Parts — 10µF 50V 1206
