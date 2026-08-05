@@ -77,6 +77,11 @@ Fabricated and assembled at JLCPCB: 6-layer, 1.69 mm board, LCSC parts. Per-revi
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Links
+
+- Product page: [opendrone.be/products/openesc](https://opendrone.be/products/openesc)
+- Video channel: [JustFPV on YouTube](https://www.youtube.com/@justfpv1432)
+
 ## License
 
 Hardware licensed under [CERN-OHL-S-2.0](https://ohwr.org/cern_ohl_s_v2.txt). See [LICENSE](LICENSE), [licensing/README.md](licensing/README.md), [licensing/THIRD_PARTY.md](licensing/THIRD_PARTY.md), and [licensing/TRADEMARKS.md](licensing/TRADEMARKS.md). Some bundled 3D model assets carry their own upstream notices (CC-BY-SA-4.0 / GPL).
