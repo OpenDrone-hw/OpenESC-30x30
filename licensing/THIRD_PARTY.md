@@ -13,5 +13,3 @@ Practical rule:
 
 - embedded upstream notices in individual third-party files remain relevant for those files
 - the repository-level hardware license does not erase or replace those upstream notices
-
-If more third-party library assets are intentionally bundled later, document them here.
