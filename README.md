@@ -71,7 +71,7 @@ kicad-cli pcb export gerbers -o out/ hardware/4in1.kicad_pcb
 
 ## Manufacturing
 
-Fabricated and assembled at JLCPCB: 6-layer, 1.69 mm board, LCSC parts. Per-revision BOM, CPL, and gerber sets are generated into `hardware/production/` (gitignored) from the panel project with the Fabrication Toolkit, using the tracked `hardware/fabrication-toolkit-options.json`. Revision history: [CHANGELOG.md](CHANGELOG.md).
+Fabricated and assembled at JLCPCB: 6-layer, 1.69 mm board, LCSC parts. Per-revision BOM, CPL, and gerber sets are generated into `hardware/production/` (gitignored) from the panel project with the Fabrication Toolkit, using the tracked `hardware/fabrication-toolkit-options.json`.
 
 ## Contributing
 
