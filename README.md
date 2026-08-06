@@ -10,7 +10,7 @@ Open-source 4-in-1 BLDC ESC with a 30.5 x 30.5 mm mounting pattern, part of the 
 ## Status
 
 **Hardware validated**, Rev1, 2026-08-05.
-Latest production export set is `Rev1-30x30` (2026-06-05), generated with the KiCad Fabrication Toolkit for JLCPCB assembly.
+Latest production exports are Rev1 (2026-06-05), generated with the KiCad Fabrication Toolkit for JLCPCB assembly: `Rev1-30x30` from `hardware/4in1.kicad_pcb` (this board only) and `Rev1-30x3020x20` from `hardware/4in1-panel.kicad_pcb` (combined panel with OpenESC-20x20).
 
 ## Certification
 
@@ -25,15 +25,7 @@ OpenESC-30x30 is **certified open source hardware** by the [Open Source Hardware
 
 ## Specifications
 
-| Parameter | Value |
-|---|---|
-| Channels | 4 independent BLDC channels |
-| Input | 3S-6S LiPo |
-| Signal protocol | DShot, one line per channel, extended DShot telemetry |
-| Firmware | AM32, per-channel AT32F421 target |
-| PCB | 6-layer, 1.69 mm, 30.5 x 30.5 mm mounting pattern |
-
-Part-level detail (MCU, gate driver, power stage, current sense, protection) is in [hardware/docs/DESIGN.md](hardware/docs/DESIGN.md).
+Full specifications and part-level detail (MCU, gate driver, power stage, current sense, protection) are in [hardware/docs/DESIGN.md](hardware/docs/DESIGN.md).
 
 ## Repository layout
 
@@ -51,7 +43,7 @@ Part-level detail (MCU, gate driver, power stage, current sense, protection) is 
 - Top schematic: `hardware/4in1.kicad_sch` (power, current sense, connector)
 - Channel schematic: `hardware/ESC.kicad_sch`, instantiated 4 times
 - Board layout: `hardware/4in1.kicad_pcb`, 6 copper layers
-- Panel for production: `hardware/4in1-panel.kicad_pro` / `hardware/4in1-panel.kicad_pcb`
+- Combined production panel: `hardware/4in1-panel.kicad_pro` / `hardware/4in1-panel.kicad_pcb`, this 30x30 board plus the OpenESC-20x20 board on one panel
 
 Symbols and footprints are embedded in the design files, so the schematics and board open without any external library. The project-local libraries are `hardware/components.kicad_sym` and `hardware/4in1ESC-30x30.pretty/`; the project lib tables also reference the shared `Incutec` library from the `libs/KiCad-Library` submodule, used for new parts. Some legacy references (`ESCLibrary`, `PCM_*`, `4in1ESC:`) and standard KiCad library parts resolve only through their embedded copies.
 
@@ -71,7 +63,10 @@ kicad-cli pcb export gerbers -o out/ hardware/4in1.kicad_pcb
 
 ## Manufacturing
 
-Fabricated and assembled at JLCPCB: 6-layer, 1.69 mm board, LCSC parts. Per-revision BOM, CPL, and gerber sets are generated into `hardware/production/` (gitignored) from the panel project with the Fabrication Toolkit, using the tracked `hardware/fabrication-toolkit-options.json`.
+Fabricated and assembled at JLCPCB: 6-layer, 1.69 mm board, LCSC parts. Per-revision BOM, CPL, and gerber sets are generated into `hardware/production/` (gitignored) with the Fabrication Toolkit. Two sets come out of this repo:
+
+- `hardware/4in1.kicad_pcb`: this board only, archived as `Rev1-30x30`.
+- `hardware/4in1-panel.kicad_pcb`: combined 30x30 + 20x20 panel. The tracked `hardware/fabrication-toolkit-options.json` holds that export's settings, `ARCHIVE_NAME` `Rev1-30x30+20x20`, written out as `Rev1-30x3020x20`.
 
 ## Contributing
 
