@@ -1,10 +1,8 @@
 # Trademarks And Branding
 
-The primary Open 4-in-1 ESC 30x30 hardware design in this repository is licensed under `CERN-OHL-S-2.0`.
+Repository license and scope: [README.md](README.md).
 
-Some bundled third-party assets may carry separate upstream notices. See [THIRD_PARTY.md](THIRD_PARTY.md).
-
-That hardware license does **not** grant permission to use any project names, logos, packaging, product branding, or other source-identifying presentation from this repository in a way that implies official status, endorsement, certification, or authorization.
+The hardware license does **not** grant permission to use any project names, logos, packaging, product branding, or other source-identifying presentation from this repository in a way that implies official status, endorsement, certification, or authorization.
 
 This means you may:
 
