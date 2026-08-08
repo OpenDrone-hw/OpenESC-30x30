@@ -55,7 +55,7 @@ Connector ground returns on the shield/mounting pads P1/P2 (both GND). The same 
 
 ## Variants and revisions
 
-This repo is the 30x30 member of the OpenESC family. A smaller sibling, [OpenESC-20x20](https://github.com/incutec-hw/OpenESC-20x20) (20x20 mm), shares this design and mirrors this repo; the two differ only in board/mounting size and a few power-stage parts.
+This repo is the 30x30 member of the OpenESC family. A smaller sibling, [OpenESC-20x20](https://github.com/OpenDrone-hw/OpenESC-20x20) (20x20 mm), shares this design and mirrors this repo; the two differ only in board/mounting size and a few power-stage parts.
 
 `hardware/4in1-panel.kicad_pcb` is not a panel of this board alone: it is the combined production panel carrying both products, one 30x30 outline and one 20x20 outline, 8 MCUs, 8 gate drivers, 2 connectors and two different power stages. The 24x SP40N01GHNK are this board; the 24x DOY180N03T on that panel belong to the OpenESC-20x20.
 
