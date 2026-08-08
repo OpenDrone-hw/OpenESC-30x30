@@ -50,7 +50,7 @@ Symbols and footprints are embedded in the design files, so the schematics and b
 ## Build and export
 
 ```
-git clone --recursive https://github.com/incutec-hw/OpenESC-30x30.git
+git clone --recursive https://github.com/OpenDrone-hw/OpenESC-30x30.git
 ```
 
 Open `hardware/4in1.kicad_pro` in KiCad 10. Production exports (gerbers, BOM, CPL) are generated with the [KiCad Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit) plugin. Headless checks and exports use `kicad-cli`:
