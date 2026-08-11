@@ -22,12 +22,11 @@ Four fully independent ESC channels share a common power input and telemetry con
 | Power MOSFETs | SP40N01GHNK, N-channel, PDFN-8L (5x6), 24 total (XRS280N03C evaluated as drop-in replacement, not used in Rev1) |
 | Current sense | Board-level high-side: INA186A3IDCKR (100 V/V, SC-70-6) across 2x 0.2 mOhm 2512 shunts in parallel (0.1 mOhm) in the +BATT feed, 10 mV/A, ~330 A full-scale at 3.3 V ADC |
 | Input | +BATT direct from connector/pads, 3S-6S |
-| Input protection | 3x SMBJ24A TVS (24 V standoff) |
 | Buck regulator | LMR54406DBVR (SOT-23-6) + FTC160808S4R7MBCA 4.7 uH inductor, produces the +10 V gate-drive rail (FB 115k/10k, Vref 0.8 V, 10.0 V out) |
 | LDO | TLV76733DRVR (WSON-6), +10 V in, +3V3 out (MCUs, sensing) |
 | Signal protocol | DShot (4 independent signal lines, one per channel) |
 | Firmware | AM32 (per-channel AT32F421 target, flashed individually) |
-| PCB | 6-layer, 1.69 mm |
+| PCB | 6-layer
 | Mounting pattern | 30.5 x 30.5 mm, 4x 4.0 mm holes (M3) |
 
 Current and voltage ratings are not printed in the design files. The input clamp is set by the SMBJ24A TVS (24 V standoff, 3S-6S); the MOSFET (SP40N01GHNK) and current-sense full-scale (~330 A) bound the practical envelope. Characterize before quoting a hard rating.
