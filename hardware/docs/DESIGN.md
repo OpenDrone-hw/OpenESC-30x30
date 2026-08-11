@@ -27,7 +27,7 @@ Four fully independent ESC channels share a common power input and telemetry con
 | LDO | TLV76733DRVR (WSON-6), +10 V in, +3V3 out (MCUs, sensing) |
 | Signal protocol | DShot (4 independent signal lines, one per channel) |
 | Firmware | AM32 (per-channel AT32F421 target, flashed individually) |
-| PCB | 6-layer, 1.69 mm |
+| PCB | 6-layer |
 | Mounting pattern | 30.5 x 30.5 mm, 4x 4.0 mm holes (M3) |
 
 Current and voltage ratings are not printed in the design files. 3S-8S is qualified by bench and flight testing on 8S rather than by a clamp: there is no input TVS. The MOSFET (SP40N01GHNK, 40 V VDSS), the LMR54406DBVR buck (36 V rated, 45 V absolute maximum, 50 V short transient) and current-sense full-scale (~330 A) bound the practical envelope.
