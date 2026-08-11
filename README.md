@@ -1,6 +1,6 @@
 # OpenESC-30x30
 
-Open-source 4-in-1 BLDC ESC with a 30.5 x 30.5 mm mounting pattern, part of the incutec OpenDrone line. Four independent AT32F421G8U7 motor controllers, each with an NSG2065Q gate driver and six MOSFETs, run AM32 firmware and take DShot over the standard 8-pin connector. 3S-6S input, 6-layer PCB, designed in KiCad 10 for JLCPCB assembly. Full design detail: [hardware/docs/DESIGN.md](hardware/docs/DESIGN.md).
+Open-source 4-in-1 BLDC ESC with a 30.5 x 30.5 mm mounting pattern, part of the incutec OpenDrone line. Four independent AT32F421G8U7 motor controllers, each with an NSG2065Q gate driver and six MOSFETs, run AM32 firmware and take DShot over the standard 8-pin connector. 3S-8S input, 6-layer PCB, designed in KiCad 10 for JLCPCB assembly. Full design detail: [hardware/docs/DESIGN.md](hardware/docs/DESIGN.md).
 
 <p>
 <img src="images/front.png" width="400" alt="OpenESC-30x30 top" />
