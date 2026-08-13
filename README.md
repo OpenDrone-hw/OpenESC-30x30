@@ -54,8 +54,10 @@ The design itself, the part list and the layout constraints are in
 
 ## License
 
-Hardware licensed under [CERN-OHL-S-2.0](https://ohwr.org/cern_ohl_s_v2.txt).
-See [LICENSE](LICENSE), [licensing/README.md](licensing/README.md),
-[licensing/THIRD_PARTY.md](licensing/THIRD_PARTY.md) and
-[licensing/TRADEMARKS.md](licensing/TRADEMARKS.md). Some bundled 3D model assets
-carry their own upstream notices (CC-BY-SA-4.0 / GPL).
+Hardware licensed under [CERN-OHL-S-2.0](https://ohwr.org/cern_ohl_s_v2.txt),
+see [LICENSE](LICENSE).
+
+Two bundled 3D models carry their own upstream licences in a notice embedded in
+the file, and those still apply: `IND-SMD_L1.6-W0.8_FTC160865SR47MBCA.step`
+is CC-BY-SA-4.0 and `QFN-28_L4.0-W4.0-P0.40-TL-EP2.4.step` is GPL, both in
+`hardware/4in1ESC-30x30.3dshapes/`.
