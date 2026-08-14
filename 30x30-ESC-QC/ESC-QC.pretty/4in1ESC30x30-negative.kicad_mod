@@ -1,0 +1,182 @@
+(footprint "4in1ESC30x30-negative"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Negative of the ESC contact face: pads on the rim, ESC-shaped pocket, 100 x 100 fixture outline and M3 corners")
+	(property "Reference" "FID**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "44bd3f1c-5a27-46a7-863a-715e0762a587")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "4in1ESC30x30-negative"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c63799c9-3b9c-4c2c-8953-55a725ce0758")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8982468d-d738-4e6b-9ef9-477c04c7600a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aaa979df-8222-47a3-ba24-8715055294b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -50 46)
+		(end -50 -46)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8f3af2d5-32f2-489d-a227-2f0bc271a482")
+	)
+	(fp_line
+		(start -46 -50)
+		(end 46 -50)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ac8fe91f-c5d3-4afb-9a2a-006c23310dcc")
+	)
+	(fp_line
+		(start 46 50)
+		(end -46 50)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "44f85c16-c4f7-48cc-9fc9-a2e4efa98182")
+	)
+	(fp_line
+		(start 50 -46)
+		(end 50 46)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "96a19c53-6238-4e84-a2b6-f3f2432de14f")
+	)
+	(fp_arc
+		(start -50 -46)
+		(mid -48.828427 -48.828427)
+		(end -46 -50)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "393baeff-54b1-4aed-b71e-a24b21a352fe")
+	)
+	(fp_arc
+		(start -46 50)
+		(mid -48.828427 48.828427)
+		(end -50 46)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "60767695-b2fa-4060-9bec-3d2838df9772")
+	)
+	(fp_arc
+		(start 46 -50)
+		(mid 48.828427 -48.828427)
+		(end 50 -46)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cca41618-af42-416b-852b-7d6596cb5dc7")
+	)
+	(fp_arc
+		(start 50 46)
+		(mid 48.828427 48.828427)
+		(end 46 50)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5d2e47f1-4b6b-4994-b318-6fccfbc6dbe5")
+	)
+	(fp_circle
+		(center -45 -45)
+		(end -43.38 -45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "d632d1ab-abac-4369-8cf1-1072520192b1")
+	)
+	(fp_circle
+		(center -45 45)
+		(end -43.38 45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "bebdf95c-fc93-4423-8db7-71e3be14367b")
+	)
+	(fp_circle
+		(center 45 -45)
+		(end 46.62 -45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "8bf192c1-39ad-4d8c-b042-7ea812980629")
+	)
+	(fp_circle
+		(center 45 45)
+		(end 46.62 45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "3bdea57d-936b-42cf-a1bb-bc648b10e678")
+	)
+	(embedded_fonts no)
+)
