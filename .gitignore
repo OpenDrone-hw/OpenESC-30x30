@@ -80,9 +80,6 @@ stencil_out/
 #   *.kicad_sym  *.pretty/  *.3dshapes/   project-local libraries
 
 # --- repo-specific, below the canonical block ---------------------------------
-# Internal working documents, kept local on purpose
-hardware/cost-analysis.md
-hardware/database/
 # Fixture STEPs regenerate via export_step.py; sets ship as release assets
 30x30-ESC-QC/*.step
 30x30-ESC-Flashing/*.step
