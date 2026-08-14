@@ -137,6 +137,8 @@ delete.
 
 | Rev | Date | Change |
 |---|---|---|
+| Rev3.1 | 2026-08-14 | Export `30x30-Rev3.1`, current. PCB-only bulk cap bank (24 x 10 uF 1206 on +BATT/GND), board setup on the line standard. |
+| Rev3 | 2026-08-11 | Input TVS D1-D3 removed, C2/C3 and Rsense1/2 added. |
 | Rev1 | 2026-06-05 | Validated build. Fab sets `Rev1-30x30` and `Rev1-30x3020x20`, the latter combined with OpenESC-20x20. |
 | V0.4 | 2026-05-29 | Combined export `V0.4-20x20-30x30`. |
 | V0.3 | 2026-05-06 | Export `V0.3`; combined `V0.3-20x20-30x30` on 2026-05-12. |
