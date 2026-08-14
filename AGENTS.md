@@ -18,7 +18,7 @@ bounded by the parts, not by a clamp.
 | Board | `hardware/4in1.kicad_pcb`, 6 layers, 1.69 mm |
 | Production panel | `hardware/4in1-panel.kicad_pcb`, carries this board **and** the OpenESC-20x20, not a panel of this board alone |
 | Local library | `hardware/components.kicad_sym`, `hardware/4in1ESC-30x30.pretty/`, `hardware/4in1ESC-30x30.3dshapes/`. Frozen pre-consolidation libraries: use them, do not add to them |
-| Shared library | [OpenDrone-hw/KiCad-Library](https://github.com/OpenDrone-hw/KiCad-Library), submodule at `libs/KiCad-Library` |
+| Shared library | [OpenDrone-hw/KiCad-Library](https://github.com/OpenDrone-hw/KiCad-Library), catalogue only; every library this board uses is local to the repo |
 | Design rules | `hardware/4in1.kicad_dru` |
 | Fab config | `hardware/fabrication-toolkit-options.json` |
 | License | CERN-OHL-S-2.0 |
