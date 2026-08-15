@@ -698,12 +698,12 @@
   "text_variables": {
     "DOC_FIRMWARE": "AM32",
     "DOC_HANDLE": "openesc-30x30",
-    "DOC_INPUT": "+BATT 3S–6S",
+    "DOC_INPUT": "+BATT 2S-8S",
     "DOC_MCU": "AT32F421G8U7 (QFN-28) ×4",
     "DOC_NAME": "OpenESC-30x30",
     "DOC_PROTOCOL": "DShot",
-    "DOC_RATING": "3S–6S input; ~330 A current-sense full-scale, not bench-characterized",
-    "DOC_TAGLINE": "AM32 4-in-1 BLDC ESC — 4× independent AT32F421 channels, DShot",
+    "DOC_RATING": "2S-8S input; 60 A per channel; ~330 A current-sense full-scale",
+    "DOC_TAGLINE": "AM32 4-in-1 BLDC ESC, 4x independent AT32F421 channels, DShot",
     "DOC_VARIANT": "30×30"
   },
   "tuning_profiles": {
