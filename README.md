@@ -16,22 +16,25 @@ standard 8-pin connector.
 [![Video](https://img.shields.io/badge/YouTube-How%20Drone%20ESCs%20Work-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=TwAmmPxOpTM)
 [![OSHWA](https://img.shields.io/badge/OSHWA-BE000029-0099b0)](https://certification.oshwa.org/be000029.html)
 
+Maintained by [@Just4Stan](https://github.com/Just4Stan).
+
 ## Specifications
 
 | | |
 |---|---|
+| Continuous | 60 A / channel |
 | Firmware | AM32 |
 | ESC protocol | DShot, bidirectional |
 | Telemetry | Extended DShot |
-| Input | 3-8S LiPo |
+| Input | 2-8S LiPo |
 | BEC | None |
 | MCU | One per motor |
 | MOSFETs | 6 per motor |
 | Current sense | On-board, 330 A |
-| TVS protection | None |
 | FC connector | JST-SH 8-pin |
 | Mounting | 30.5 x 30.5 mm, 4.0 mm holes |
-| PCB | 6-layer, 2 oz copper |
+| Dimensions | 41.6 x 42.5 mm |
+| PCB | 6-layer, 1.6 mm, 2 oz copper |
 
 Technical write-up, part list and layout constraints: [AGENTS.md](AGENTS.md).
 
