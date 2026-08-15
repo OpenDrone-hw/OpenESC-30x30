@@ -15,6 +15,7 @@ the standard 8-pin connector.
 | KiCad project | `hardware/4in1.kicad_pro` |
 | Root schematic | `hardware/4in1.kicad_sch` (power, current sense, connector) plus `hardware/ESC.kicad_sch`, one channel instantiated 4x |
 | Board | `hardware/4in1.kicad_pcb`, 6 layers, 1.6 mm, 2 oz outer copper (the stackup field reads 1.69 mm; JLC ships 1.6) |
+| Fixtures | [OpenDrone-Fixtures](https://github.com/OpenDrone-hw/OpenDrone-Fixtures): `OpenESC-30x30-QC/` press-contact QC fixture, `OpenESC-30x30-Flashing/` ST-LINK pogo-pin jig, both unrouted |
 | Production panel | `hardware/4in1-panel.kicad_pcb`, carries this board **and** the OpenESC-20x20, not a panel of this board alone |
 | Fab exports | `hardware/production/`, Fabrication Toolkit sets named by revision |
 | Local library | `hardware/components.kicad_sym`, `hardware/4in1ESC-30x30.pretty/`, `hardware/4in1ESC-30x30.3dshapes/`. Frozen pre-consolidation libraries: use them, do not add to them |
