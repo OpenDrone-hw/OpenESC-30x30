@@ -103,6 +103,7 @@ full scale.
 | Buck inductor | U14 | FTC160808S4R7MBCA | C46594347 | 4.7 uH |
 | LDO | U15 | TLV76733DRVR, WSON-6 | C2848334 | +10 V to +3V3 |
 | Connector | J1 | SM08B-SRSS-TB, JST SH 8-pin | C160407 | Also broken out as solder pads (U3) |
+| Bulk electrolytic, supplied | n/a | 470 uF | | Shipped with the board, not fitted to it. The user solders it across the battery terminals. Standard pairing of on-board ceramics with a pack-side elco; it dominates the bus capacitance once installed |
 
 ## Power
 
