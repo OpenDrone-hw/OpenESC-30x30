@@ -83,6 +83,18 @@ Current sensing is **board level, not per channel**: a single INA186A3IDCKR at
 +BATT feed. That gives 10 mV/A and roughly 330 A full scale against a 3.3 V ADC,
 reported as `/CURR`.
 
+**`/CURR` is expected unusable below full throttle.** The shunt is high side,
+so both amplifier inputs ride the switching bus and the common-mode
+feedthrough rectifies to a duty-dependent offset. Measured on the 20x20
+sibling 2026-08-21, which shares this exact topology: errors from +164% to
+-64% across the throttle range, a raw-ADC-level hard fault at 80% throttle,
+honest only at 100% where AM32 stops chopping (+11 to +12% gain error there).
+This board has not been measured itself, but nothing in its identical
+high-side arrangement escapes the mechanism. The fix is a respin: shunt moved
+low side, or a matched input network at the amplifier. Details and evidence
+in the OpenESC-20x20 AGENTS.md and
+`OpenDrone-Testing/Logs/esc-04-20x20-20260821T150430Z/`.
+
 **There is no input protection.** The three clamp diodes (D1-D3) that earlier
 revisions carried are gone: their 24 V standoff sits below the 33.6 V an 8S pack
 reaches, so they were removing themselves. 2S-8S is qualified by bench and
@@ -103,6 +115,7 @@ full scale.
 | Buck inductor | U14 | FTC160808S4R7MBCA | C46594347 | 4.7 uH |
 | LDO | U15 | TLV76733DRVR, WSON-6 | C2848334 | +10 V to +3V3 |
 | Connector | J1 | SM08B-SRSS-TB, JST SH 8-pin | C160407 | Also broken out as solder pads (U3) |
+| Bulk electrolytic, supplied | n/a | 470 uF | | Shipped with the board, not fitted to it. The user solders it across the battery terminals. Standard pairing of on-board ceramics with a pack-side elco; it dominates the bus capacitance once installed |
 
 ## Power
 
