@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -6.83 0)
 		(layer "F.SilkS")
-		(uuid "2cf74f9d-49cc-490a-842d-d8901dfc7d68")
+		(uuid "a389b8a8-f996-4722-8472-19fe5a50a43b")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "PDFN-8L_L6.0-W5.0-P1.27"
 		(at 0 6.83 0)
 		(layer "F.Fab")
-		(uuid "dd2fd1a8-604e-421f-8014-de467667185d")
+		(uuid "a568a217-789a-48e0-a71b-eeebdc23361f")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8911689c-f6ac-4547-87c1-5d25853d3f97")
+		(uuid "f43ccaa0-150a-48f9-86c7-4fa612039662")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "88df4470-96bd-4010-a490-6eec10642670")
+		(uuid "2224efc5-17a0-4474-ba1c-b94f92c25c43")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e4351d14-34ae-4a0d-89de-c50b2bbbde8e")
+		(uuid "19d674b4-27b0-4725-8dbd-41407187f650")
 	)
 	(fp_line
 		(start -2.6 0.04)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d619f861-eef6-4957-bd6d-c34c5bc5fa31")
+		(uuid "27284b98-93b5-4100-9ba9-b7c8b6b11d6c")
 	)
 	(fp_line
 		(start -2.6 2.9)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f0cc2de9-09f6-4f6e-b920-37acd92c4224")
+		(uuid "ebc0d285-4b72-48bd-af77-39641d08c3ea")
 	)
 	(fp_line
 		(start -2.6 2.9)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b6403e2b-ddb7-40f9-a974-ff7f443c0ac9")
+		(uuid "be89cb32-7c41-427d-9f38-c8b5f9d9c981")
 	)
 	(fp_line
 		(start -2.5 -2.9)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1dfd149a-218b-45b6-bafd-ec09fff22ea0")
+		(uuid "d847daee-a4f5-4c49-8835-8fbecfbb4c1e")
 	)
 	(fp_line
 		(start -1.39 2.9)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "90290e3b-d4ae-4c63-8fca-8bc8fcba5e2d")
+		(uuid "f6a0b689-b04b-47ef-b4c0-534718326097")
 	)
 	(fp_line
 		(start -0.12 2.9)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "90c863e9-2fb2-4be2-a81e-849b269d134a")
+		(uuid "f9cc36b8-3d24-44b2-b4b7-1be1bfd81585")
 	)
 	(fp_line
 		(start 1.16 2.9)
@@ -129,7 +129,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4b7248dc-8ce9-4669-911e-2763e9276df0")
+		(uuid "f83d1d31-d0ae-42c8-8ed9-b60eb09ee268")
 	)
 	(fp_line
 		(start 2.43 2.9)
@@ -139,7 +139,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b995e2a3-43f9-46c6-a727-6b5103a8c28f")
+		(uuid "11671be2-d057-4eda-afbf-892777b4d46e")
 	)
 	(fp_line
 		(start 2.46 -2.9)
@@ -149,7 +149,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d15aee9c-e6b3-4511-b3f8-ce52f6726b9a")
+		(uuid "bde44d84-60d6-45ed-b8b9-39ab1f432d09")
 	)
 	(fp_line
 		(start 2.46 -2.9)
@@ -159,7 +159,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6d497456-c505-41ee-9205-f2817b5e966f")
+		(uuid "2f05413c-78db-4a35-8114-0f48a2b053a7")
 	)
 	(fp_line
 		(start 2.6 -2.9)
@@ -169,7 +169,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f010d1fc-8138-4978-a462-a877c0f5f6ef")
+		(uuid "b89dbaaa-2bcd-4541-a991-bb2e728c432e")
 	)
 	(fp_line
 		(start 2.6 0.9)
@@ -179,7 +179,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9c0f53e4-2089-408b-b348-4c16f9578e2f")
+		(uuid "33cbd058-d71c-49df-9601-cbb74fd311a9")
 	)
 	(fp_arc
 		(start -3.2 2.6)
@@ -190,7 +190,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d14b70af-bed3-4331-9f69-3e4b8bf0d5fd")
+		(uuid "547f2862-0662-4844-992d-8e7b74ad8bd5")
 	)
 	(fp_circle
 		(center -2.14 3.03)
@@ -201,7 +201,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "66af4158-2337-44bd-9157-f80b67fae304")
+		(uuid "f644f133-4cec-4d81-95aa-01fb743cf69d")
 	)
 	(fp_circle
 		(center -2.51 3.02)
@@ -212,12 +212,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "6b4c5322-73ed-4ffb-b901-ee68c55dd7e8")
+		(uuid "6077fd2a-a997-415e-9bf8-a479fe03058f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "8f21497b-2539-4607-98f4-2ad95247b501")
+		(uuid "f9420efc-f499-4eb7-bfcc-27b2e959ed4d")
 		(effects
 			(font
 				(size 1 1)
@@ -229,66 +229,66 @@
 		(at -1.91 2.83 180)
 		(size 0.58 1.08)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "537a1186-f33f-453a-804d-275bbc0efc40")
+		(uuid "38203cad-ca20-45a5-bfc9-54bbe74527b2")
 	)
 	(pad "1" smd rect
 		(at -0.63 2.83 180)
 		(size 0.58 1.08)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "4e9d4aa2-d333-4de2-be84-0bba19edcd58")
+		(uuid "0bbb96a3-4a85-400a-bc2e-c2bb7f317ac2")
 	)
 	(pad "1" smd rect
 		(at 0.63 2.83 180)
 		(size 0.58 1.08)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d6baa2ad-7391-4b5b-8c65-16717fa62eaf")
+		(uuid "5ee297ce-a658-4729-9115-47bb37cf1b78")
 	)
 	(pad "2" smd rect
 		(at 1.9 2.83 180)
 		(size 0.58 1.08)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d402a56d-b710-4635-84ca-fd93463a061c")
+		(uuid "8746a852-2044-424e-91c7-f961b611394e")
 	)
 	(pad "3" smd rect
 		(at -1.9 -2.83)
 		(size 0.58 1.08)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "cb813959-fbb9-4d69-adae-d1c2a29b2507")
+		(uuid "19f52ece-65da-459b-97de-50dfa3604ffa")
 	)
 	(pad "3" smd rect
 		(at -0.63 -2.83)
 		(size 0.58 1.08)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0630ba1a-e3f6-411a-bf4d-4d511a1a5817")
+		(uuid "ae71458a-53e3-4f2c-b129-641fc6acd625")
 	)
 	(pad "3" smd rect
 		(at 0 -0.69)
 		(size 4.4 4.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "531a2a51-67b8-4a42-9e0d-981756bd3f0b")
+		(uuid "ef6a7280-ae82-45a9-b0db-65f4354ed18b")
 	)
 	(pad "3" smd rect
 		(at 0.64 -2.83)
 		(size 0.58 1.08)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c8e0ad6d-9946-427b-8e9f-e992569acb5e")
+		(uuid "e09634be-9d09-465b-a39f-f9c2cb2b979c")
 	)
 	(pad "3" smd rect
 		(at 1.9 -2.83)
 		(size 0.58 1.08)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "afc21a63-0141-4966-adda-faa23656af23")
+		(uuid "6153e77c-54bb-44b4-a3d7-6970f48a7aca")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/4in1ESC-30x30.3dshapes/PDFN-8_L6.0-W5.0-P1.27_HGQ065NE4A.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/PQFN-8-EP_6x5mm_P1.27mm_Generic.step"
 		(offset
-			(xyz 0 -0 -0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 90)
 		)
 	)
 )
