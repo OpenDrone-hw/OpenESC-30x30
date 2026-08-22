@@ -83,16 +83,18 @@ Current sensing is **board level, not per channel**: a single INA186A3IDCKR at
 +BATT feed. That gives 10 mV/A and roughly 330 A full scale against a 3.3 V ADC,
 reported as `/CURR`.
 
-**`/CURR` is expected unusable below full throttle.** The shunt is high side,
-so both amplifier inputs ride the switching bus and the common-mode
-feedthrough rectifies to a duty-dependent offset. Measured on the 20x20
-sibling 2026-08-21, which shares this exact topology: errors from +164% to
--64% across the throttle range, a raw-ADC-level hard fault at 80% throttle,
-honest only at 100% where AM32 stops chopping (+11 to +12% gain error there).
-This board has not been measured itself, but nothing in its identical
-high-side arrangement escapes the mechanism. The fix is a respin: shunt moved
-low side, or a matched input network at the amplifier. Details and evidence
-in the OpenESC-20x20 AGENTS.md and
+**Rev3.2 adds a matched input network at the amplifier**: 1 k in each sense
+leg (R89/R90), 100 nF 50 V from each input to ground (C40/C41) and 1 uF
+across the inputs (C42). Through rev3.1 the bare high-side connection put
+both amplifier inputs on the switching bus, and the common-mode feedthrough
+rectified to a duty-dependent offset: measured on the 20x20 sibling
+2026-08-21 (identical topology), errors from +164% to -64% across the
+throttle range, honest only at 100% where AM32 stops chopping. The network
+attenuates the common-mode at the pins ~300x and the mismatch-converted
+differential to 2.8 mVpp worst case (SPICE, 1% R / 10% C opposed); scale is
+unchanged at 10 mV/A. Not yet verified on hardware: the acceptance test is
+the ESC-04 mid-throttle i_a-versus-clamp sweep on a rev3.2 board. Evidence
+for the rev3.1 fault: OpenESC-20x20 AGENTS.md and
 `OpenDrone-Testing/Logs/esc-04-20x20-20260821T150430Z/`.
 
 **There is no input protection.** The three clamp diodes (D1-D3) that earlier
@@ -170,6 +172,7 @@ geometry, not scratch: do not tidy it away.
 
 | Rev | Date | Change |
 |---|---|---|
+| Rev3.2 | 2026-08-22 | Export `OpenESC-30x30-rev3.2`. Matched input network at the current-sense amplifier (R89/R90 1k, C40/C41 100n 50V, C42 1u) against the high-side common-mode feedthrough measured on the 20x20 sibling. Scale unchanged, 10 mV/A. |
 | Rev3.1 | 2026-08-14 | Export `30x30-Rev3.1`, current. Bulk bank: 52 x 10 uF 1206 on +BATT/GND, 49 of them PCB-only (only C2, C3, C6 are in the schematic; 24 added since rev3). Board setup on the line standard. |
 | Rev3 | 2026-08-11 | Input clamp diodes D1-D3 removed, C2 and C3 doubled. |
 | Rev1 | 2026-06-05 | Validated build. Fab sets `Rev1-30x30` and `Rev1-30x3020x20`, the latter combined with OpenESC-20x20. |
