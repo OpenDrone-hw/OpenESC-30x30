@@ -1652,6 +1652,17 @@
 				)
 			)
 		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4e6c1309-c3e8-4a47-a206-6b757ccafdac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/0f1ac7ef-71be-4cf4-81ac-90268323e1b3/e1c307e0-da1e-4199-993c-565dacc1988b")
 		(sheetname "/ESC4/")
 		(sheetfile "ESC.kicad_sch")
@@ -2400,6 +2411,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b04c43cd-aabc-4128-8381-b4a3547b07a1")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3319,6 +3341,17 @@
 				)
 			)
 		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8bd4661c-d7e3-4d2d-bdf9-a11e1fc035fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/3fa70197-fd52-4922-8368-62c7feb267b9/e1c307e0-da1e-4199-993c-565dacc1988b")
 		(sheetname "/ESC2/")
 		(sheetfile "ESC.kicad_sch")
@@ -3737,6 +3770,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d8b92ebb-877c-485c-8997-56086bf185ef")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4326,6 +4370,17 @@
 				)
 			)
 		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d4a8c169-ea20-40c4-a390-c97b3f1a56c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/6061fcc0-8b26-44e0-b078-a202b47fdd16/033c7673-57ac-41af-8f1c-ce889c33151d")
 		(sheetname "/ESC3/")
 		(sheetfile "ESC.kicad_sch")
@@ -4744,6 +4799,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4618f9b0-ad10-4e2d-a404-b47096a4503d")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9234,6 +9300,17 @@
 				)
 			)
 		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ca0780fc-1a50-4b31-8e2f-0648074305d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/3fa70197-fd52-4922-8368-62c7feb267b9/033c7673-57ac-41af-8f1c-ce889c33151d")
 		(sheetname "/ESC2/")
 		(sheetfile "ESC.kicad_sch")
@@ -10397,6 +10474,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e25301a1-0f68-4886-964f-f393fec4687a")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -15439,6 +15527,17 @@
 				)
 			)
 		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6e75e563-0939-4789-8c74-6d92b4a13059")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/f870c78f-43b6-4f66-afe4-21d85c4907b1/033c7673-57ac-41af-8f1c-ce889c33151d")
 		(sheetname "/ESC1/")
 		(sheetfile "ESC.kicad_sch")
@@ -16187,6 +16286,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e48528fe-f2e0-42ec-b15f-215f3cec322f")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25158,6 +25268,17 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "10f24b83-aec0-4231-81d8-c43aa4583510")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/0f1ac7ef-71be-4cf4-81ac-90268323e1b3/852e58a5-cba3-4a56-8660-f99dda290262")
 		(sheetname "/ESC4/")
 		(sheetfile "ESC.kicad_sch")
@@ -25846,6 +25967,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e2500c9d-58af-4ba9-8a37-b07b2da5c6df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/3fa70197-fd52-4922-8368-62c7feb267b9/1ce56dab-164d-4d5e-bf78-e91f38df7af8")
@@ -35271,6 +35403,17 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "703cbb46-c1a9-49ed-8696-5103a4472cee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/f870c78f-43b6-4f66-afe4-21d85c4907b1/e1c307e0-da1e-4199-993c-565dacc1988b")
 		(sheetname "/ESC1/")
 		(sheetfile "ESC.kicad_sch")
@@ -35702,6 +35845,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "924459cf-e328-442a-83d5-baca0376438d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/f870c78f-43b6-4f66-afe4-21d85c4907b1/852e58a5-cba3-4a56-8660-f99dda290262")
@@ -37282,6 +37436,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5dd1952f-4010-409f-b526-44e7c606c311")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/0f1ac7ef-71be-4cf4-81ac-90268323e1b3/1ce56dab-164d-4d5e-bf78-e91f38df7af8")
@@ -39570,6 +39735,17 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e094874f-02c6-4ef5-b342-069e17e2869a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/f2b1e88a-6564-49b2-a51e-95df04d4872d")
 		(sheetname "/")
 		(sheetfile "4in1.kicad_sch")
@@ -40398,6 +40574,17 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "312a5d91-204c-42ad-b7d2-18cd0f89ba68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/f870c78f-43b6-4f66-afe4-21d85c4907b1/b24ae31e-8b6e-4686-bcdb-802df1f52a7e")
 		(sheetname "/ESC1/")
 		(sheetfile "ESC.kicad_sch")
@@ -40829,6 +41016,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "aa4a7978-7f83-4b45-b809-0e16d6006ec5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/6061fcc0-8b26-44e0-b078-a202b47fdd16/fcdb4ae8-7610-43d9-8a51-86a4cb51f793")
@@ -42749,6 +42947,17 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ca35a873-70e5-4bce-a1f5-7cf2fb0982d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/6061fcc0-8b26-44e0-b078-a202b47fdd16/b24ae31e-8b6e-4686-bcdb-802df1f52a7e")
 		(sheetname "/ESC3/")
 		(sheetfile "ESC.kicad_sch")
@@ -43180,6 +43389,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0b053bfa-34ff-44c4-a97b-1e269e79b6ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/3fa70197-fd52-4922-8368-62c7feb267b9/852e58a5-cba3-4a56-8660-f99dda290262")
@@ -44627,6 +44847,17 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f2eb46b9-796e-4325-bd41-79be826ee357")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/6061fcc0-8b26-44e0-b078-a202b47fdd16/1ce56dab-164d-4d5e-bf78-e91f38df7af8")
 		(sheetname "/ESC3/")
 		(sheetfile "ESC.kicad_sch")
@@ -45575,6 +45806,17 @@
 				(justify mirror)
 			)
 		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "521d0971-9660-4db2-8f9c-0c59aeb2813e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/3fa70197-fd52-4922-8368-62c7feb267b9/b24ae31e-8b6e-4686-bcdb-802df1f52a7e")
 		(sheetname "/ESC2/")
 		(sheetfile "ESC.kicad_sch")
@@ -46263,6 +46505,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "367c9158-231d-441c-9308-98131649574d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/6061fcc0-8b26-44e0-b078-a202b47fdd16/852e58a5-cba3-4a56-8660-f99dda290262")
@@ -47212,6 +47465,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "FT Position Offset" "0,2.835"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a6c99282-17a3-4e80-a687-3db978d30345")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/a2a15004-bb55-4ba0-bb3e-9b254c23b035")
@@ -49188,6 +49452,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "37f45fcd-b163-4e86-8530-d65a472d131c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/f870c78f-43b6-4f66-afe4-21d85c4907b1/1ce56dab-164d-4d5e-bf78-e91f38df7af8")
@@ -58542,6 +58817,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "FT Position Offset" "0,-1.06"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5b01fbbf-2cc7-4cdd-b032-afb368dd4339")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/0f1ac7ef-71be-4cf4-81ac-90268323e1b3/b24ae31e-8b6e-4686-bcdb-802df1f52a7e")
