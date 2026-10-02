@@ -5814,7 +5814,9 @@
 
 (property "Manufacturer" "Siliup" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3c9e83e8-874d-4b39-ab92-1596ef1b749b")) (pin "3" (uuid "81cdc5cc-ef60-46a3-89ef-9f3149ad2894")) (pin "2" (uuid "3e04677e-61ca-4ffe-b477-15aa0878a304")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q10") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q8") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q9") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q6") (unit 1))))) 
+(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3c9e83e8-874d-4b39-ab92-1596ef1b749b")) (pin "3" (uuid "81cdc5cc-ef60-46a3-89ef-9f3149ad2894")) (pin "2" (uuid "3e04677e-61ca-4ffe-b477-15aa0878a304")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q10") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q8") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q9") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q6") (unit 1)))) 
+
+(property "FT Position Offset" "0,-1.06" (at 96.52 146.05 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))) 
 
 (symbol (lib_id "Device:R") (at 69.85 33.02 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "083958b2-4032-442e-8683-c1399a1bcc76") 
 
@@ -5930,7 +5932,9 @@
 
 (property "Manufacturer" "Siliup" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "177e3efa-a6dd-4a45-adf2-a3de487b315a")) (pin "3" (uuid "3b744d1d-9f09-40db-8960-850371a8e17f")) (pin "2" (uuid "85f5bb79-9962-4e2b-b479-78472e5438cf")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q15") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q12") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q14") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q11") (unit 1))))) 
+(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "177e3efa-a6dd-4a45-adf2-a3de487b315a")) (pin "3" (uuid "3b744d1d-9f09-40db-8960-850371a8e17f")) (pin "2" (uuid "85f5bb79-9962-4e2b-b479-78472e5438cf")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q15") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q12") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q14") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q11") (unit 1)))) 
+
+(property "FT Position Offset" "0,-1.06" (at 96.52 161.29 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))) 
 
 (symbol (lib_id "ESCLibrary:GRM033R61C104KE84D") (at 160.02 66.04 180) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "20c9cd63-b83c-4ae1-bd48-55d5bbe04f22") 
 
@@ -6464,7 +6468,9 @@
 
 (property "Manufacturer" "Siliup" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "1d531b95-e36e-48ee-b140-a717f66dddb4")) (pin "3" (uuid "c0e1d34b-1eef-43ef-b0c1-3028954500dc")) (pin "2" (uuid "6edfc58a-c66f-4703-b47e-4b680d287107")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q5") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q3") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q4") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q2") (unit 1))))) 
+(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "1d531b95-e36e-48ee-b140-a717f66dddb4")) (pin "3" (uuid "c0e1d34b-1eef-43ef-b0c1-3028954500dc")) (pin "2" (uuid "6edfc58a-c66f-4703-b47e-4b680d287107")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q5") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q3") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q4") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q2") (unit 1)))) 
+
+(property "FT Position Offset" "0,-1.06" (at 36.83 161.29 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))) 
 
 (symbol (lib_id "PCM_Resistor_AKL:R_0402") (at 88.9 147.32 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "86eb6805-0166-4a3e-8f6d-3d0120708e95") 
 
@@ -6552,7 +6558,9 @@
 
 (property "Manufacturer" "Siliup" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dcf1bb74-c4e7-402b-9ca8-8d3a33bf1260")) (pin "3" (uuid "c7005a65-28c2-49d0-851a-2076eb7e7bb8")) (pin "2" (uuid "c4577d30-3efe-437c-a991-eabc97907273")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q24") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q22") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q23") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q21") (unit 1))))) 
+(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dcf1bb74-c4e7-402b-9ca8-8d3a33bf1260")) (pin "3" (uuid "c7005a65-28c2-49d0-851a-2076eb7e7bb8")) (pin "2" (uuid "c4577d30-3efe-437c-a991-eabc97907273")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q24") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q22") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q23") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q21") (unit 1)))) 
+
+(property "FT Position Offset" "0,-1.06" (at 157.48 160.02 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))) 
 
 (symbol (lib_id "components:NSG2065Q") (at 132.08 74.93 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (fields_autoplaced yes) (uuid "b671930a-0cc9-4d70-9cac-a314a985df2c") 
 
@@ -6744,7 +6752,9 @@
 
 (property "Manufacturer" "Siliup" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "63da6a09-04e1-4fa4-9dc2-4de7cf62a4b5")) (pin "3" (uuid "b93dc2d5-f2bb-4854-9a20-b4800be76a99")) (pin "2" (uuid "817e33aa-91e3-4753-b629-12ea7eb51755")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q19") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q7") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q13") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q1") (unit 1))))) 
+(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "63da6a09-04e1-4fa4-9dc2-4de7cf62a4b5")) (pin "3" (uuid "b93dc2d5-f2bb-4854-9a20-b4800be76a99")) (pin "2" (uuid "817e33aa-91e3-4753-b629-12ea7eb51755")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q19") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q7") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q13") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q1") (unit 1)))) 
+
+(property "FT Position Offset" "0,-1.06" (at 36.83 146.05 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))) 
 
 (symbol (lib_id "power:GND") (at 44.45 71.12 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "e3a6d053-62c3-4bec-a432-6d549ada1bd1") 
 
@@ -6820,7 +6830,9 @@
 
 (property "Manufacturer" "Siliup" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) 
 
-(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "abbeb812-cc97-477c-886f-9408982b5cd4")) (pin "3" (uuid "80d8e84a-6290-475e-a1a5-dba1568f3fcd")) (pin "2" (uuid "68f85150-450e-443f-b02a-303c3e1d05cf")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q20") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q17") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q18") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q16") (unit 1))))) 
+(property "MPN" "SP40N01GHNK" (at 0 0 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "abbeb812-cc97-477c-886f-9408982b5cd4")) (pin "3" (uuid "80d8e84a-6290-475e-a1a5-dba1568f3fcd")) (pin "2" (uuid "68f85150-450e-443f-b02a-303c3e1d05cf")) (instances (project "4in1" (path "/612d09d9-c556-41af-8a15-92be360f8e81/0f1ac7ef-71be-4cf4-81ac-90268323e1b3" (reference "Q20") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/3fa70197-fd52-4922-8368-62c7feb267b9" (reference "Q17") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/6061fcc0-8b26-44e0-b078-a202b47fdd16" (reference "Q18") (unit 1)) (path "/612d09d9-c556-41af-8a15-92be360f8e81/f870c78f-43b6-4f66-afe4-21d85c4907b1" (reference "Q16") (unit 1)))) 
+
+(property "FT Position Offset" "0,-1.06" (at 157.48 144.78 0) (hide yes) (show_name no) (do_not_autoplace no) (effects (font (size 1.27 1.27))))) 
 
 (symbol (lib_id "ESCLibrary:GRM033R61C104KE84D") (at 170.18 68.58 180) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "fcf377c3-8f09-48ac-9674-e814c452414f") 
 
