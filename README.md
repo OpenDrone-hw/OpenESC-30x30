@@ -36,7 +36,7 @@ Maintained by [@Just4Stan](https://github.com/Just4Stan).
 | Dimensions | 41.6 x 42.5 mm |
 | PCB | 6-layer, 1.6 mm, 2 oz copper |
 
-Technical write-up, part list and layout constraints: [AGENTS.md](AGENTS.md).
+Technical write-up, part list and layout constraints: in the git history of AGENTS.md, `git show c7fc7ab:AGENTS.md`.
 
 ## In the line
 
