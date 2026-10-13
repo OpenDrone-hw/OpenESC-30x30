@@ -112,7 +112,7 @@ only under KiCad's bundled Python. Reusable scripts for renders, STEP export,
 and packaging art come from Incutec hardware tooling. The OpenDrone release
 standard is
 [RELEASES.md](https://github.com/OpenDrone-hw/.github/blob/main/RELEASES.md).
-Board-specific scripts, where a board has any, live in `hardware/tools/`.
+This board has no board-specific scripts; any it gets go in a `tools` folder under `hardware`.
 
 ## Rules
 
