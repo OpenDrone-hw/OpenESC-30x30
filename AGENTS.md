@@ -112,11 +112,11 @@ The [Board rules](#board-rules) at the end of this file apply, a CI-checked copy
 
 | Rev | Date | Change |
 |---|---|---|
-| Rev3.3 | 2026-08-25 | Export `OpenESC-30x30-rev3.3`. Silkscreen rebranded OpenDrone -> incutec for export restriction reasons on flagging anything containing 'Drone'. First Incutec production run. |
+| Rev3.3 | 2026-08-25 | Export `OpenESC-30x30-rev3.3`. Silkscreen rebranded OpenDrone -> incutec for export restriction reasons on flagging anything containing 'Drone'. |
 | Rev3.2 | 2026-08-22 | Export `OpenESC-30x30-rev3.2`. Matched input network at the current-sense amplifier (R89/R90 1k, C40/C41 100n 50V, C42 1u) against the high-side common-mode feedthrough. |
 | Rev3.1 | 2026-08-14 | Export `30x30-Rev3.1` |
 | Rev3 | 2026-08-11 | Input clamp diodes D1-D3 removed, TVS diodes offer no protection when rail voltage is this close to the MOSFET Vds. |
-| Rev1 | 2026-06-05 | Validated build. 15 pieces ordered by Incutec. |
+| Rev1 | 2026-06-05 | Validated build. |
 | V0.4 | 2026-05-29 | Combined export `V0.4-20x20-30x30`. |
 | V0.3 | 2026-05-06 | Export `V0.3`; combined `V0.3-20x20-30x30` on 2026-05-12. |
 | V0.2 | 2026-05-05 | Export `V0.2`. |
